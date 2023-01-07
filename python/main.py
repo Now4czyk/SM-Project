@@ -5,11 +5,11 @@ import csv
 
 t = 0
 Tp = 1
-curr_temp_samples = []
-curr_temp_flag = 0
-set_temp_samples = []
-set_temp_flag = 0
-timebase = []
+measured_temps = []
+measured_temp_changed = 0
+destined_temps = []
+destined_temp_changed = 0
+timeaxis = []
 serialDataBuffer = bytearray()
 not_exited = 1
 timeFormat = "%Y%m%d-%H%M%S"
@@ -41,8 +41,8 @@ def start_archive(timeFormat):
 def init_uart():
     COM_PORT = int(input("Wpisz numer PORTU COM: "))
     UART = serial.Serial(f"COM{COM_PORT}", 115200, timeout=1, parity=serial.PARITY_NONE)
-    set_start_temp = str(input("Ustaw temperature: "))
-    UART.write(set_start_temp.encode())
+    beginning_temperature = str(input("Ustaw temperature: "))
+    UART.write(beginning_temperature.encode())
     return UART
 
 
@@ -50,6 +50,38 @@ fig = init_fig()
 writer, dataStream = start_archive(timeFormat)
 UART = init_uart()
 
+
+def handle_uart(serialDataBuffer, t):
+    global measured_temp_changed, destined_temp_changed
+    set_temp = read_data(serialDataBuffer)
+
+
+
+def read_data(serialDataBuffer):
+    global measured_temp_changed, destined_temp_changed
+    if UART.inWaiting() >= 0:
+        serialDataBuffer += UART.read(1)
+        if b"Current temperature: " in serialDataBuffer:
+            measured_temperature = UART.read(5)
+            measured_temperature = measured_temperature.decode()
+            measured_temperature = float(measured_temperature)
+            measured_temps.append(measured_temperature)
+            serialDataBuffer[::] = b""
+            measured_temp_changed = 1
+            print("Current temperature:", measured_temperature)
+        elif b"Set temperature: " in serialDataBuffer:
+            destined_temperature = UART.read(5)
+            destined_temperature = destined_temperature.decode()
+            destined_temperature = float(destined_temperature)
+            destined_temps.append(destined_temperature)
+            serialDataBuffer[::] = b""
+            destined_temp_changed = 1
+            print("Set temperature:", destined_temperature)
+    return destined_temperature
+
+
+while not_exited:
+    handle_uart(serialDataBuffer)
 
 fig.savefig(f"Temp_plot_{timeFormat}.png")
 UART.close()
