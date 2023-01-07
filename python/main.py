@@ -54,7 +54,30 @@ UART = init_uart()
 def handle_uart(serialDataBuffer, t):
     global measured_temp_changed, destined_temp_changed
     set_temp = read_data(serialDataBuffer)
+    draw_chart(set_temp, t)
 
+
+def draw_chart(set_temp, t):
+    global measured_temp_changed, destined_temp_changed
+    if measured_temp_changed and destined_temp_changed:
+        timeaxis.append(t)
+        t += Tp
+
+        plt.clf()
+        plt.grid(True)
+        plt.plot(timeaxis, measured_temps, '.', markersize=5, label="Obecna temperatura")
+        plt.plot(timeaxis, destined_temps, '.', markersize=5, label="Zadana temperatura")
+        plt.xlim(0, t + 1)
+        plt.title(f"Current temperature plot, set temp = {set_temp}")
+        plt.xlabel("Czas (s)")
+        plt.ylabel("Temperatura (C)")
+        plt.legend(loc="lower right")
+        plt.show(block=False)
+        fig.canvas.flush_events()
+        plt.pause(0.0001)
+        writer.writerow([timeaxis[-1], measured_temps[-1], destined_temps[-1]])
+        measured_temp_changed = 0
+        destined_temp_changed = 0
 
 
 def read_data(serialDataBuffer):
