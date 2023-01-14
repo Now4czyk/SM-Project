@@ -22,6 +22,11 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+#include "LCD.h"
+#include "stdio.h"
+#include "string.h"
+#include "stdlib.h"
+
 
 /* USER CODE END Includes */
 
@@ -54,6 +59,26 @@ DMA_HandleTypeDef hdma_usart3_tx;
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
+
+float current_temp_f;
+char current_temp_ch_UART[29];
+char current_temp_ch_LCD[29];
+float set_temp_f = 20.0;
+
+char set_temp_ch_UART[24];
+char set_temp_ch_LCD[24];
+int32_t pressure;
+
+uint32_t enc_uint;
+static uint32_t prev_enc_uint = 65535 / 2;
+int32_t enc_diff_int;
+
+char enc_ch[64];
+
+float pwm_duty_f;
+uint16_t pwm_duty_u = 0;
+
+char get_UART[10];
 
 /* USER CODE END PV */
 
@@ -164,6 +189,11 @@ int main(void)
   // Fixes bug when encoder goes through zero
   htim4.Instance->CNT = 65535 / 2;
 
+  LCD_init();
+  LCD_write_command(LCD_CLEAR_INSTRUCTION);
+  LCD_write_command(LCD_HOME_INSTRUCTION);
+  HAL_Delay(2000);
+
   // PID1 init
   PID1.Kp = 0.03928;
   PID1.Ki = 0.0002692;
@@ -194,8 +224,26 @@ int main(void)
 	  set_temp_f += 0.5 * enc_diff_int;
 	  if(set_temp_f > 65) set_temp_f = 65;
 	  if(set_temp_f < 20) set_temp_f = 20;
-	  }
+	}
 	prev_enc_uint = enc_uint;
+
+	// LCD
+	snprintf(current_temp_ch_LCD, LCD_MAXIMUM_LINE_LENGTH, "Temp:  %.2f", current_temp_f);
+	LCD_write_text(current_temp_ch_LCD);
+	LCD_write_data(LCD_CHAR_DEGREE);
+	LCD_write_char('C');
+	snprintf(set_temp_ch_LCD, LCD_MAXIMUM_LINE_LENGTH, "Set T: %.2f", set_temp_f);
+	LCD_goto_line(1);
+	LCD_write_text(set_temp_ch_LCD);
+	LCD_write_data(LCD_CHAR_DEGREE);
+	LCD_write_char('C');
+	HAL_Delay(100);
+	LCD_write_text("                ");
+	LCD_write_command(LCD_HOME_INSTRUCTION);
+
+
+	// Reset UART stream
+	memset(get_UART, 0, 10);
   }
   /* USER CODE END 3 */
 }
@@ -642,6 +690,42 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+// TIMERS callbacks
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	if(htim->Instance == TIM3){
+		// TEMPERATURE
+		BMP280_ReadTemperatureAndPressure(&current_temp_f, &pressure);
+		sprintf(current_temp_ch_UART, "Current temperature: %.2f\n\r", current_temp_f);
+		HAL_UART_Transmit(&huart3, (uint8_t *)current_temp_ch_UART, sizeof(current_temp_ch_UART)-1, 1000);
+
+		sprintf((char*)set_temp_ch_UART, "Set temperature: %.2f\n\r", set_temp_f);
+		HAL_UART_Transmit(&huart3, (uint8_t*)set_temp_ch_UART, strlen(set_temp_ch_UART), 1000);
+
+		pwm_duty_f = (htim1.Init.Period * calculate_PID(&PID1, set_temp_f, current_temp_f));
+
+		// Saturation
+		if(pwm_duty_f < 0.0) pwm_duty_u = 0;
+		else if(pwm_duty_f > htim1.Init.Period) pwm_duty_u = htim1.Init.Period;
+		else pwm_duty_u = (uint16_t) pwm_duty_f;
+
+		__HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, pwm_duty_u);
+
+	}
+
+}
+
+// UART callback
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size){
+	if(huart->Instance == USART3){
+		float tmp = atof(get_UART);
+		if(tmp < 20) set_temp_f = 20;
+		else if(tmp > 65) set_temp_f = 65;
+		else set_temp_f = tmp;
+
+		HAL_UARTEx_ReceiveToIdle_DMA(&huart3, (uint8_t *)get_UART, 10);
+	}
+}
 
 /* USER CODE END 4 */
 
