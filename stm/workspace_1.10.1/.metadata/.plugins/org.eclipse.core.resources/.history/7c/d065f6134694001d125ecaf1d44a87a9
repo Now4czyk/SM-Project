@@ -73,41 +73,6 @@ static void MX_TIM4_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-struct Controller{
-	float Kp;
-	float Ki;
-	float Kd;
-	float Tp;
-	float prev_error;
-	float prev_u_I;
-};
-
-float calculate_PID(struct Controller *PID, float set_temp, float meas_temp){
-	float u = 0;
-	float error;
-	float u_P, u_I , u_D;
-
-	error = set_temp - meas_temp;
-
-	// Proportional
-	u_P = PID->Kp * error;
-
-	// Integral
-	u_I = PID->Ki * PID->Tp / 2.0 * (error + PID->prev_error) + PID->prev_u_I;
-	PID->prev_u_I = u_I;
-
-	// Derivative
-	u_D = (error - PID->prev_error) / PID->Tp;
-
-	PID->prev_error = error;
-
-	// Sum of P, I and D components
-	u = u_P + u_I + u_D;
-
-	return u;
-}
-
-struct Controller PID1;
 
 /* USER CODE END 0 */
 

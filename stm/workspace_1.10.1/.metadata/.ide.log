@@ -1076,3 +1076,307 @@
 2023-01-14 20:38:26,402 [INFO] CADModel:164 - CPN selected for project levelSTM32F746ZGT6
 2023-01-14 20:38:26,402 [INFO] CADModel:113 - Register for checkConnection events
 2023-01-14 20:38:26,492 [INFO] OpenFileManager:327 - Restore cursor
+2023-01-14 20:41:30,176 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,511x313,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:41:31,369 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:43:28,587 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,511x313,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:43:30,210 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:43:51,936 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:44:33,690 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 304558024 Bytes (346030080)
+2023-01-14 20:44:35,201 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 284908248 Bytes (346030080)
+2023-01-14 20:44:38,939 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 255519160 Bytes (346030080)
+2023-01-14 20:44:39,704 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:44:39,704 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:44:39,704 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-14 20:44:39,705 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-14 20:44:39,706 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-14 20:44:39,706 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: ETH
+2023-01-14 20:44:39,709 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2023-01-14 20:44:40,247 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp_save
+2023-01-14 20:44:40,841 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp
+2023-01-14 20:44:40,982 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp_save
+2023-01-14 20:44:41,286 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp
+2023-01-14 20:44:42,194 [WARN] IPConfigManager:2928 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-01-14 20:44:42,221 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp_save
+2023-01-14 20:44:42,366 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp
+2023-01-14 20:44:42,417 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c_save
+2023-01-14 20:44:42,627 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c
+2023-01-14 20:44:42,643 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h_save
+2023-01-14 20:44:42,812 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h
+2023-01-14 20:44:42,840 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c_save
+2023-01-14 20:44:43,223 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c
+2023-01-14 20:44:43,238 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp_save
+2023-01-14 20:44:43,487 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp
+2023-01-14 20:44:43,515 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h_save
+2023-01-14 20:44:43,675 [INFO] CodeEngine:327 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h
+2023-01-14 20:44:43,736 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-14 20:44:43,737 [WARN] IPConfigManager:3414 - IP not found : USB_OTG
+2023-01-14 20:44:43,738 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:44:43,739 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:44:43,757 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h_save
+2023-01-14 20:44:43,910 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h
+2023-01-14 20:44:43,925 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c_save
+2023-01-14 20:44:44,305 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c
+2023-01-14 20:44:45,915 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 441mS.
+2023-01-14 20:44:45,933 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-14 20:44:46,599 [INFO] ConfigFileManager:1396 - The Die is : DIE449
+2023-01-14 20:44:46,615 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-01-14 20:44:46,626 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-01-14 20:44:46,630 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2023-01-14 20:44:46,641 [INFO] ApiDbMcu:505 - Load IP Config File for LWIP
+2023-01-14 20:44:46,648 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2023-01-14 20:44:46,655 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2023-01-14 20:44:46,662 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2023-01-14 20:44:49,169 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 3236mS.
+2023-01-14 20:44:49,172 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-14 20:44:49,180 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-14 20:49:43,813 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 426522216 Bytes (758120448)
+2023-01-14 20:49:45,048 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 459028072 Bytes (758120448)
+2023-01-14 20:49:47,075 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 550780520 Bytes (758120448)
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-01-14 20:49:47,607 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-01-14 20:49:47,608 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-14 20:49:47,608 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-14 20:49:47,609 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-14 20:49:47,611 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2023-01-14 20:49:47,841 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp_save
+2023-01-14 20:49:47,928 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp
+2023-01-14 20:49:47,977 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp_save
+2023-01-14 20:49:48,067 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp
+2023-01-14 20:49:48,477 [WARN] IPConfigManager:2928 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-01-14 20:49:48,499 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp_save
+2023-01-14 20:49:48,573 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp
+2023-01-14 20:49:48,603 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c_save
+2023-01-14 20:49:48,714 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c
+2023-01-14 20:49:48,725 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h_save
+2023-01-14 20:49:48,814 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h
+2023-01-14 20:49:48,834 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c_save
+2023-01-14 20:49:49,017 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c
+2023-01-14 20:49:49,028 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp_save
+2023-01-14 20:49:49,104 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp
+2023-01-14 20:49:49,121 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h_save
+2023-01-14 20:49:49,212 [INFO] CodeEngine:327 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h
+2023-01-14 20:49:49,243 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-14 20:49:49,244 [WARN] IPConfigManager:3414 - IP not found : USB_OTG
+2023-01-14 20:49:49,245 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:49:49,245 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:49:49,260 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h_save
+2023-01-14 20:49:49,348 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h
+2023-01-14 20:49:49,359 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c_save
+2023-01-14 20:49:49,588 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c
+2023-01-14 20:49:50,355 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 247mS.
+2023-01-14 20:49:50,361 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-14 20:49:50,845 [INFO] ConfigFileManager:1396 - The Die is : DIE449
+2023-01-14 20:49:52,428 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 2067mS.
+2023-01-14 20:49:52,430 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-14 20:49:52,437 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-14 20:50:55,444 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:51:04,249 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:51:14,153 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:51:16,991 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 399983456 Bytes (792723456)
+2023-01-14 20:51:18,263 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 430918496 Bytes (792723456)
+2023-01-14 20:51:20,555 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 534201184 Bytes (792723456)
+2023-01-14 20:51:21,041 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:51:21,041 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:51:21,041 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-14 20:51:21,042 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-14 20:51:21,043 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-01-14 20:51:21,044 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-14 20:51:21,046 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2023-01-14 20:51:21,340 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp_save
+2023-01-14 20:51:21,410 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp
+2023-01-14 20:51:21,459 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp_save
+2023-01-14 20:51:21,522 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp
+2023-01-14 20:51:22,196 [WARN] IPConfigManager:2928 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-01-14 20:51:22,217 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp_save
+2023-01-14 20:51:22,298 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp
+2023-01-14 20:51:22,367 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma.tmp_save
+2023-01-14 20:51:22,446 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma.tmp
+2023-01-14 20:51:22,451 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma_GV.tmp_save
+2023-01-14 20:51:22,525 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma_GV.tmp
+2023-01-14 20:51:22,558 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c_save
+2023-01-14 20:51:22,666 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c
+2023-01-14 20:51:22,678 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h_save
+2023-01-14 20:51:22,751 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h
+2023-01-14 20:51:22,773 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c_save
+2023-01-14 20:51:22,919 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c
+2023-01-14 20:51:22,930 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp_save
+2023-01-14 20:51:22,999 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp
+2023-01-14 20:51:23,020 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h_save
+2023-01-14 20:51:23,142 [INFO] CodeEngine:327 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h
+2023-01-14 20:51:23,178 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-14 20:51:23,178 [WARN] IPConfigManager:3414 - IP not found : USB_OTG
+2023-01-14 20:51:23,179 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:51:23,179 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:51:23,196 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h_save
+2023-01-14 20:51:23,339 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h
+2023-01-14 20:51:23,354 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c_save
+2023-01-14 20:51:23,532 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c
+2023-01-14 20:51:24,158 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 249mS.
+2023-01-14 20:51:24,163 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-14 20:51:24,548 [INFO] ConfigFileManager:1396 - The Die is : DIE449
+2023-01-14 20:51:26,022 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1859mS.
+2023-01-14 20:51:26,024 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-14 20:51:26,030 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-01-14 20:52:13,930 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,521x332,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:52:15,655 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:52:17,939 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:53:27,659 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:56:15,845 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:56:34,894 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-14 20:57:03,904 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 537335048 Bytes (792723456)
+2023-01-14 20:57:05,865 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 567221512 Bytes (792723456)
+2023-01-14 20:57:08,004 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 668407048 Bytes (792723456)
+2023-01-14 20:57:08,522 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:57:08,522 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:57:08,522 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F7
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-01-14 20:57:08,523 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2023-01-14 20:57:08,524 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-01-14 20:57:08,525 [INFO] CodeGenerator:692 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.7.0.202211181646\\db\
+2023-01-14 20:57:08,561 [INFO] Argument:300 - Argument : hdmavalue: null
+2023-01-14 20:57:08,561 [INFO] Argument:302 - 	 sub Args: 
+2023-01-14 20:57:08,561 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream1
+2023-01-14 20:57:08,561 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream1
+2023-01-14 20:57:08,561 [INFO] Argument:300 - Argument : Initvalue: null
+2023-01-14 20:57:08,561 [INFO] Argument:302 - 	 sub Args: 
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-01-14 20:57:08,562 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-01-14 20:57:08,562 [INFO] Argument:300 - Argument : Modevalue: DMA_NORMAL
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : Modevalue: DMA_NORMAL
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : Lockvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : Lockvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : Statevalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : Statevalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : Parentvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : Parentvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2023-01-14 20:57:08,563 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2023-01-14 20:57:08,564 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : hdmavalue: null
+2023-01-14 20:57:08,565 [INFO] Argument:302 - 	 sub Args: 
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream3
+2023-01-14 20:57:08,565 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream3
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : Initvalue: null
+2023-01-14 20:57:08,565 [INFO] Argument:302 - 	 sub Args: 
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2023-01-14 20:57:08,565 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-01-14 20:57:08,565 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2023-01-14 20:57:08,565 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : Modevalue: DMA_NORMAL
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : Modevalue: DMA_NORMAL
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : Lockvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : Lockvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : Statevalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : Statevalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : Parentvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : Parentvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2023-01-14 20:57:08,566 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2023-01-14 20:57:08,568 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2023-01-14 20:57:08,712 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp_save
+2023-01-14 20:57:08,773 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\license.tmp
+2023-01-14 20:57:08,819 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp_save
+2023-01-14 20:57:08,889 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\gpio.tmp
+2023-01-14 20:57:09,333 [WARN] IPConfigManager:2928 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-01-14 20:57:09,348 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp_save
+2023-01-14 20:57:09,406 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\cortex.tmp
+2023-01-14 20:57:09,507 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma.tmp_save
+2023-01-14 20:57:09,679 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma.tmp
+2023-01-14 20:57:09,687 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma_GV.tmp_save
+2023-01-14 20:57:09,781 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\dma_GV.tmp
+2023-01-14 20:57:09,810 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c_save
+2023-01-14 20:57:09,875 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_it.c
+2023-01-14 20:57:09,883 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h_save
+2023-01-14 20:57:09,947 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_it.h
+2023-01-14 20:57:09,966 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c_save
+2023-01-14 20:57:10,068 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\stm32f7xx_hal_msp.c
+2023-01-14 20:57:10,076 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp_save
+2023-01-14 20:57:10,164 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\MXTmpFiles\system.tmp
+2023-01-14 20:57:10,178 [INFO] CodeEngine:303 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h_save
+2023-01-14 20:57:10,254 [INFO] CodeEngine:327 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\stm32f7xx_hal_conf.h
+2023-01-14 20:57:10,272 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-01-14 20:57:10,272 [WARN] IPConfigManager:3414 - IP not found : USB_OTG
+2023-01-14 20:57:10,273 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:57:10,273 [WARN] CodeGenerator:3583 - IP not found : null
+2023-01-14 20:57:10,284 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h_save
+2023-01-14 20:57:10,346 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Inc\main.h
+2023-01-14 20:57:10,354 [INFO] CodeEngine:247 - oldGeneratedFile, C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c_save
+2023-01-14 20:57:10,504 [INFO] CodeEngine:271 - Generated code: C:\Users\MPatr\OneDrive\studia\5 sem\SM\SM-Project\stm\workspace_1.10.1\sm-project\Core\Src\main.c
+2023-01-14 20:57:11,401 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 289mS.
+2023-01-14 20:57:11,406 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-01-14 20:57:11,647 [INFO] ConfigFileManager:1396 - The Die is : DIE449
+2023-01-14 20:57:13,098 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 1692mS.
+2023-01-14 20:57:13,100 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2023-01-14 20:57:13,106 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
