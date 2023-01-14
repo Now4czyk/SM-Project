@@ -3,7 +3,7 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
     <appender name="DEBUGFILE" class="org.apache.log4j.RollingFileAppender">
         <param name="Append" value="true"/>
-        <param name="File" value="C:/Users/AgraWoodAdmin/Desktop/Nauka/Politechnika/.semestr 5/SM/SM-Project/stm/workspace_1.10.1/.metadata/.ide.log"/>
+        <param name="File" value="C:/Users/MPatr/OneDrive/studia/5 sem/SM/SM-Project/stm/workspace_1.10.1/.metadata/.ide.log"/>
         <param name="MaxBackupIndex" value="1"/>
         <param name="MaxFileSize" value="50MB"/>
         <param name="Threshold" value="INFO"/>
