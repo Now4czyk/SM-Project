@@ -67,6 +67,7 @@ static void MX_TIM1_Init(void);
 static void MX_TIM3_Init(void);
 static void MX_USART3_UART_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -146,9 +147,36 @@ int main(void)
   MX_TIM3_Init();
   MX_USART3_UART_Init();
   MX_TIM4_Init();
+
+  /* Initialize interrupts */
+  MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
 
+  // Tranzistor PWM init
+  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+
+  // Regulation Tp init
+  HAL_TIM_Base_Start_IT(&htim3);
+
+  // Encoder setup
+  HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL);
+
+  // Fixes bug when encoder goes through zero
+  htim4.Instance->CNT = 65535 / 2;
+
+  // PID1 init
+  PID1.Kp = 0.03928;
+  PID1.Ki = 0.0002692;
+  PID1.Kd = 0.01957;
+  PID1.Tp = 1;
+  PID1.prev_error = 0;
+  PID1.prev_u_I = 0;
+
+  // Acquire desired temperature
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart3, (uint8_t *)get_UART, 10);
+
   /* USER CODE END 2 */
+
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -157,6 +185,17 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+	// ENCODER
+	enc_uint = __HAL_TIM_GET_COUNTER(&htim4);	// enc_uint = htim4.Instance->CNT;
+	enc_diff_int = enc_uint - prev_enc_uint;
+	if(enc_diff_int >= 2 || enc_diff_int <= -2){
+	  enc_diff_int /= 2;
+	  set_temp_f += 0.5 * enc_diff_int;
+	  if(set_temp_f > 65) set_temp_f = 65;
+	  if(set_temp_f < 20) set_temp_f = 20;
+	  }
+	prev_enc_uint = enc_uint;
   }
   /* USER CODE END 3 */
 }
@@ -208,6 +247,17 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief NVIC Configuration.
+  * @retval None
+  */
+static void MX_NVIC_Init(void)
+{
+  /* RCC_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(RCC_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(RCC_IRQn);
 }
 
 /**
